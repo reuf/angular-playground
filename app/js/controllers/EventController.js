@@ -3,18 +3,19 @@
 eventsApp.controller('EventController',
 	function EventController($scope){
 
-		$scope.snippet = '<span style="color:red;">hi there</span>';
-		$scope.snippet2 = '<span style="color:red;">hi there</span>';
+		$scope.sortorder = 'name';
+
+		$scope.snippet = '<span style="color:yellow;">hi there</span>';
 
 		$scope.boolValue = true;
 
 		$scope.myStyle = {color:'red'};
 
-		$scope.myClass = "blue";
+		$scope.myClass = "magenta";
 
 		$scope.event = {
 			name: 'Angular Boot Camp',
-			date: '1/1/2013',
+			date: 1449664838,
 			time: '10:30 am',
 			location: {
 				address: 'Google Headquarters',
@@ -24,26 +25,26 @@ eventsApp.controller('EventController',
 			imageUrl:'/img/angularjs-logo.png',
 			sessions: [
 				{
-					name: 'Directives MasterClass',
+					name: 'ZDirectives MasterClass Introductory',
 					creatroName: 'John Doe.',
 					duration: '1 h',
 					level: 'Advanced',
 					abstract: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, dolorum.',
-					upVoteCount: 34
+					upVoteCount: 400
 				},
 				{
 					name: 'Scopes for fun and profiut.',
 					creatroName: 'Marc Zuckenberg.',
 					duration: '1h',
-					level: 'Beginner',
+					level: 'Introductory',
 					abstract: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, beatae?',
-					upVoteCount: 2
+					upVoteCount: 400
 				},
 				{
 					name: 'Well Behaved Controllers',
 					creatroName: 'Halil Halilovic.',
 					duration: '2h',
-					level: 'Beginner',
+					level: 'Intermediate',
 					abstract: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, voluptatibus.',
 					upVoteCount: -3
 				}
