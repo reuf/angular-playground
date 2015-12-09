@@ -27,7 +27,7 @@ eventsApp.controller('EventController',
 				{
 					name: 'ZDirectives MasterClass Introductory',
 					creatroName: 'John Doe.',
-					duration: '1 h',
+					duration: 1,
 					level: 'Advanced',
 					abstract: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, dolorum.',
 					upVoteCount: 400
@@ -35,7 +35,7 @@ eventsApp.controller('EventController',
 				{
 					name: 'Scopes for fun and profiut.',
 					creatroName: 'Marc Zuckenberg.',
-					duration: '1h',
+					duration: 2,
 					level: 'Introductory',
 					abstract: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, beatae?',
 					upVoteCount: 400
@@ -43,7 +43,7 @@ eventsApp.controller('EventController',
 				{
 					name: 'Well Behaved Controllers',
 					creatroName: 'Halil Halilovic.',
-					duration: '2h',
+					duration: 4,
 					level: 'Intermediate',
 					abstract: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, voluptatibus.',
 					upVoteCount: -3
